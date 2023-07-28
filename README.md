@@ -7,16 +7,16 @@ The Sentiment Analysis App is a simple web application that allows users to anal
 ### 2.Install Dependencies
 - Open a terminal or command prompt in the project directory.
 - Install Python dependencies by running:
-    pip install flask flask-cors transformers
+    - pip install flask flask-cors transformers
 - Install Node.js dependencies by running:
-    npm install
+    - npm install
 ### 3.Start the Backend Server
 - In the terminal, navigate to the project directory and run:
-    python server.py
+    - python server.py
 - The Flask server will start, and you should see an output indicating that the server is running on http://127.0.0.1:5000/.
 ### 4.Start the Frontend React App
 - In a separate terminal, navigate to the project directory and run:
-    npm start
+    - npm start
 - The React app will start, and your default web browser should open automatically at http://localhost:3000/.
 ### Using the App
 - Once the app is running, you'll see the Sentiment Analysis App user interface.
