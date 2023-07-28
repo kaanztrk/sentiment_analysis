@@ -1,0 +1,173 @@
+/* index.css */
+
+/* Apply styles to the whole page */
+body,
+html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+/* Typography styles */
+body {
+  background: #c0deff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+  color: #333;
+}
+
+h1 {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+p {
+  margin-bottom: 10px;
+}
+
+/* Input styles */
+.input-text {
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  font-size: 16px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+/* Button styles */
+.btn {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 20px;
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  color: #ffffff;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+/* Hover effect */
+.btn-submit:hover {
+  background-color: #0056b3;
+}
+
+/* Active effect */
+.btn-submit:active {
+  background-color: #003a80;
+}
+
+.btn-submit {
+  margin-right: 8px;
+  background-color: #5a9fe9;
+}
+
+.btn-clear {
+  background-color: #f99898;
+}
+
+.btn-clear:hover {
+  background-color: #ff6c6c;
+}
+
+/* Input focus and button focus styles */
+.input-text:focus,
+.btn:focus {
+  outline: none;
+}
+
+/* Background styles */
+.bg {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f0f0f0;
+}
+
+/* Container styles */
+.container {
+  position: fixed;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+  background-color: #ffffff;
+  padding: 20px 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  max-width: 800px;
+  width: 90%;
+  height: 90vh;
+}
+
+/* Sentiment result styles */
+.sentiment-result-container {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding: 10px;
+  border-radius: 4px;
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.sentiment-result-container p {
+  padding: 4px 8px;
+  border-radius: 4px;
+}
+
+/* Sentiment background styles */
+.neutral {
+  background-color: #d0d0d0d7;
+}
+
+.positive {
+  background-color: #15ff4c62;
+}
+
+.negative {
+  background-color: #f8243650;
+}
+
+/* History section styles */
+.history {
+  margin-top: 20px;
+  height: 60%;
+  overflow-y: auto;
+}
+
+.history h3 {
+  text-align: center;
+  transform: translateY(10px);
+}
+
+.history ul {
+  list-style: none;
+  margin-top: 10px;
+  padding: 0;
+  max-height: 100%;
+}
+
+.history li {
+  padding: 10px;
+  margin-bottom: 5px;
+  border-radius: 4px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.history-input {
+  margin-right: 8px;
+}
+
+.input-result-container {
+  display: flex;
+  justify-content: space-between;
+}
